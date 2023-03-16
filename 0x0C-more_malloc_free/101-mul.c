@@ -95,7 +95,7 @@ int main(int argc, char *argv[])
 	if (a)
 	_putchar(result[i] + '0');
 }
-	if (!a)
-	_putchar('0', '\n');
-	free(result);
+	if (!a);
+	_putchar('0');
+	 free(result);
 	return (0); }
