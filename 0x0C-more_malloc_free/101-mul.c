@@ -96,6 +96,6 @@ int main(int argc, char *argv[])
 	_putchar(result[i] + '0');
 }
 	if (!a)
-	_putchar('\n');
+	_putchar('0', '\n');
 	free(result);
 	return (0); }
