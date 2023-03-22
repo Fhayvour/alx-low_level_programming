@@ -18,7 +18,7 @@
 	* Return: The sum of a and b.
 	*/
 
-        int op_add(int a, int b)
+	int op_add(int a, int b)
 
 {
 
@@ -32,7 +32,7 @@
 	* Return: The difference of a and b.
 	*/
 
-        int op_sub(int a, int b)
+	int op_sub(int a, int b)
 
 {
 	return (a - b);
@@ -61,7 +61,7 @@
 	* Return: The quotient of a and b.
 	*/
 
-        int op_div(int a, int b)
+	int op_div(int a, int b)
 	{
 
 	return (a / b);
