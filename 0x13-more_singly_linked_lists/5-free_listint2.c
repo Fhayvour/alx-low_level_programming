@@ -1,3 +1,5 @@
+#include<stdio.h>
+#include<stdlib.h>
 #include "lists.h"
 
 /**
@@ -11,10 +13,12 @@ listint_t *temp;
 if (head == NULL)
 return;
 
-while (*head != NULL)
+while (*head)
 {
-	liberator = *head;
-	*head = (*head)->next;
-	free(liberator);
+temp = (*head)->next;
+free(*head);
+*head = temp;
 }
+
+*head = NULL;
 }
